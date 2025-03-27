@@ -4,6 +4,7 @@
 }
 
 body {
+    /* conteudo da pagina inicial */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background: #fff url(../img/fundo.png);
     background-repeat: repeat-x;
@@ -12,7 +13,7 @@ body {
 #container {
     width: 750px;
     margin: 0px;
-    border: 1px solid red;
+
 }
 
 #topo {
@@ -27,4 +28,79 @@ body {
     height: 66px;
     background: url(../img/logo.png) no-repeat center;
     text-indent: -3000px;
+}
+
+ul {
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+
+}
+
+#topo ul {
+    background: #b01033;
+    margin-top: 7px;
+    float: left;
+}
+
+#topo ul li {
+    float: left;
+}
+
+#topo ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em;
+    margin: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    background: url(../img/divisor.png) no-repeat left center;
+}
+
+#topo ul a:hover {
+    background: #69001b;
+}
+
+/* define o layout em tres colunas */
+#conteudo {
+    background: #fff;
+    margin-top: 60px;
+}
+
+#primaria {
+    width: 270px;
+    background: blue;
+    float: left;
+
+}
+
+#secundaria {
+    width: 270px;
+    background: green;
+    float: left;
+
+
+}
+
+#lateral {
+    width: 180px;
+    background: yellow;
+    float: left;
+
+
+}
+
+#container-rodape {
+    background: #294c71;
+    padding: 20px;
+
+
+}
+
+#rodape {
+    width: 750px;
+    color: #fff;
+    margin: 0 auto;
+
 }
